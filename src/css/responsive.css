@@ -1,0 +1,18 @@
+@media(max-width: 500px) {
+    body {
+        height: 100%;
+    }
+    
+    .main {
+        flex-direction: column;
+    }
+
+    .select-tip {
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .tip-amount {
+        justify-content: flex-start;
+        gap: 1.25rem;
+    }
+}
